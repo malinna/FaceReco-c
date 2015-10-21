@@ -37,9 +37,9 @@ The following steps are required in order to compile FaceReco with OpenCV and Ch
 
 1. Get the **Chehra C++ Tracking Code (VS2010 and VS2012)** from [here](https://sites.google.com/site/chehrahome/).
 2. Unzip the software to desired location.
-3. Update `CHEHRA_ROOT` variable in FaceReco.pro to point to unzipped folder.
+3. Update `CHEHRA_ROOT` variable in FaceReco.pro to point to Chehra root folder.
 4. Update `OPENCV_ROOT` variable in FaceReco.pro to point to OpenCV 2.4.9 root folder.
-5. Open Chehra_Linker.h from Include folder and comment out all header includes but `"opencv2/opencv.hpp"`.
+5. Open Chehra_Linker.h from Include folder and comment out all the header includes but `"opencv2/opencv.hpp"`.
 6. Compile FaceReco with Qt Creator.
 
 ## License
