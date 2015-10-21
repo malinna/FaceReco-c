@@ -13,7 +13,9 @@ FaceReco is a face recognition system, which can learn and recognize faces from 
 Check [this](https://www.youtube.com/watch?v=QxhqC-4yHiA) video to see how the system performs on the [Honda/UCSD video database](http://vision.ucsd.edu/~leekc/HondaUCSDVideoDatabase/HondaUCSD.html).
 
 FaceReco utilizes 3rd party software [Chehra](https://sites.google.com/site/chehrahome/) for facial landmark detection and tracking. Faces are represented using Local Binary Patterns ([LBP](http://www.scholarpedia.org/article/Local_Binary_Patterns)). For more detailed information about the system, read the following paper:
+
 * [Linna M](http://www.ee.oulu.fi/~malinna/), [Kannala J](http://www.ee.oulu.fi/~jkannala/) and [Rahtu E](http://www.ee.oulu.fi/~erahtu/). Online Face Recognition System Based on Local Binary Patterns and Facial Landmark Tracking. *Advanced Concepts for Intelligent Vision Systems (ACIVS 2015)*. [[PDF](http://www.ee.oulu.fi/~malinna/papers/Linna-2015-OnlineFaceRecognition.pdf)]
+
 ---
 ## System requirements
 
