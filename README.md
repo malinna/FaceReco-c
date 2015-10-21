@@ -4,7 +4,7 @@
 [![license](https://img.shields.io/badge/license-BSD-green.svg)](LICENSE)
 ![platform](https://img.shields.io/badge/platform-windows_64--bit-blue.svg)
 
-FaceReco is a face recognition system, which can learn and recognize faces from a video. It is developed by [Marko Linna](http://www.ee.oulu.fi/~malinna/) at the [University of Oulu](http://www.oulu.fi/english/) in the [Research Work on Information Processing](https://weboodi.oulu.fi/oodi/opintjakstied.jsp?Kieli=6&OpinKohd=121722) course. The C++/Qt sources are available under the [BSD 3-Clause](LICENSE) license. Note that there is no other support available than this readme file.
+FaceReco is a face recognition system, which can learn and recognize faces from a video. It is developed by [Marko Linna](http://www.ee.oulu.fi/~malinna/) at the [University of Oulu](http://www.oulu.fi/english/) in the [Research Work on Information Processing](https://weboodi.oulu.fi/oodi/opintjakstied.jsp?Kieli=6&OpinKohd=121722) course. The C++/Qt sources are available under the [BSD 3-Clause](LICENSE) license. This software was developed for research purposes and there is no other support available than this readme file.
 
 [![ui](http://www.ee.oulu.fi/~malinna/images/facereco/ui_small.png)](http://www.ee.oulu.fi/~malinna/images/facereco/ui.png)
 [![ui](http://www.ee.oulu.fi/~malinna/images/facereco/capture_small.jpg)](http://www.ee.oulu.fi/~malinna/images/facereco/capture.jpg)
