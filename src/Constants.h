@@ -59,7 +59,13 @@ const cv::Size TRACK_WINDOW_FRAME_SIZE(TRACK_WINDOW_WIDTH / TRACK_WINDOW_GRID_X,
 const bool MAINTAIN_VIDEO_FPS = true;
 
 // Size of the normalized face image.
-const cv::Size ALIGNED_FACE_IMAGE_SIZE(126, 147);
+const cv::Size ALIGNED_FACE_IMAGE_SIZE(130, 151);
+
+// LBP parameters.
+const int LBP_GRID_X = 7;
+const int LBP_GRID_Y = 7;
+const int EXTENDED_LBP_RADIUS = 2;
+const int EXTENDED_LBP_SAMPLING_POINTS = 8;
 
 // This parameter specifies how often key frames are taken. It specifies the
 // length of the delta vector (between landmarks of the last and the current key

@@ -30,14 +30,13 @@
  */
 
 #include "LBPImage.h"
+#include "Constants.h"
 #include <limits>
 
-const int NUM_PATTERNS = 59;
-const int GRID_X = 7;
-const int GRID_Y = 7;
-const int NUM_PATCHES = GRID_X * GRID_Y - 10;
-const int EXTENDED_LBP_RADIUS = 2;
-const int EXTENDED_LBP_SAMPLING_POINTS = 8;
+// Uniform2 LBP parameters.
+const int LBP_NUM_PATTERNS = 59;
+const int LBP_NUM_PATCHES = LBP_GRID_X * LBP_GRID_Y - 10; // 10 patches has zero
+                                                          // weight.
 
 // The original uniform2 pattern.
 int UNIFORM_PATTERN[256] =
@@ -94,10 +93,10 @@ float LBPImage::distance(const cv::Mat &lbpHistogram1, const cv::Mat &lbpHistogr
 
     float distance = 0.0;
     int index = 0;
-    for (int i = 0; i < NUM_PATCHES; i++)
+    for (int i = 0; i < LBP_NUM_PATCHES; i++)
     {
         const float weight = static_cast<float>(WEIGHT_MAP[i]);
-        for (int j = 0; j < NUM_PATTERNS; j++)
+        for (int j = 0; j < LBP_NUM_PATTERNS; j++)
         {
             const float v1 = lbpHistogram1.at<float>(index);
             const float v2 = lbpHistogram2.at<float>(index);
@@ -157,15 +156,15 @@ cv::Mat LBPImage::calcExtendedLBP(const cv::Mat &img, const int radius, const in
 
 cv::Mat LBPImage::calcSpatialHistogram(const cv::Mat &img)
 {
-    cv::Mat result = cv::Mat::zeros(1, NUM_PATCHES * NUM_PATTERNS, CV_32FC1);
+    cv::Mat result = cv::Mat::zeros(1, LBP_NUM_PATCHES * LBP_NUM_PATTERNS, CV_32FC1);
 
-    const int width = img.cols / GRID_X;
-    const int height = img.rows / GRID_Y;
+    const int width = img.cols / LBP_GRID_X;
+    const int height = img.rows / LBP_GRID_Y;
 
     int patchIndex = 0;
-    for (int i = 0; i < GRID_Y; i++)
+    for (int i = 0; i < LBP_GRID_Y; i++)
     {
-        for(int j = 0; j < GRID_X; j++)
+        for(int j = 0; j < LBP_GRID_X; j++)
         {
             if (((j == 0 || j == 6) && (i == 3 || i == 4 || i == 5 || i == 6)) ||
                 ((j == 3 && (i == 2 || i == 3))))
@@ -174,7 +173,7 @@ cv::Mat LBPImage::calcSpatialHistogram(const cv::Mat &img)
             }
 
             const cv::Mat patch = cv::Mat(img, cv::Range(i * height, (i + 1) * height), cv::Range(j * width, (j + 1) * width));
-            const int histogramIndex = patchIndex * NUM_PATTERNS;
+            const int histogramIndex = patchIndex * LBP_NUM_PATTERNS;
 
             for (int px = 0; px < patch.cols; px++)
             {
