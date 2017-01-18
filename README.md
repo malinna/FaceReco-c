@@ -14,7 +14,7 @@ Check [this](https://www.youtube.com/watch?v=QxhqC-4yHiA) video to see how the s
 
 FaceReco utilizes 3rd party software [Chehra](https://sites.google.com/site/chehrahome/) for facial landmark detection and tracking. Faces are represented using Local Binary Patterns ([LBP](http://www.scholarpedia.org/article/Local_Binary_Patterns)). For more detailed information about the system, read the following paper:
 
-* [Linna M](http://www.ee.oulu.fi/~malinna/), [Kannala J](http://www.ee.oulu.fi/~jkannala/) and [Rahtu E](http://www.ee.oulu.fi/~erahtu/). Online Face Recognition System Based on Local Binary Patterns and Facial Landmark Tracking. *Advanced Concepts for Intelligent Vision Systems (ACIVS 2015)*. [[PDF](http://www.ee.oulu.fi/~malinna/papers/Linna-2015-OnlineFaceRecognition.pdf)]
+* [Linna M](http://www.ee.oulu.fi/~malinna/), [Kannala J](https://users.aalto.fi/~kannalj1/) and [Rahtu E](http://www.ee.oulu.fi/~erahtu/). Online Face Recognition System Based on Local Binary Patterns and Facial Landmark Tracking. *Advanced Concepts for Intelligent Vision Systems (ACIVS 2015)*. [[PDF](http://www.ee.oulu.fi/~malinna/publications/linna2015online.pdf)]
 
 ---
 ## System requirements
@@ -52,9 +52,11 @@ Licensed under the [BSD 3-Clause](LICENSE) license.
 
 Please site the following paper in your publications if FaceReco helps your research.
 
-	@INPROCEEDINGS{cmv:1996,
-  	  author = {Linna M. and Kannala J & Rahtu E.},
-	  title = {Online face recognition system based on local binary patterns and facial landmark tracking.},
-	  year = {2015},
-	  booktitle = {Proc. Advanced Concepts for Intelligent Vision Systems (Acivs 2015), Lecture Notes in Computer Science, accepted}
- 	}
+    @inproceedings{linna2015online,
+      title={Online Face Recognition System Based on Local Binary Patterns and Facial Landmark Tracking},
+      author={Linna, Marko and Kannala, Juho and Rahtu, Esa},
+      booktitle={International Conference on Advanced Concepts for Intelligent Vision Systems},
+      pages={403--414},
+      year={2015},
+      organization={Springer}
+    }
