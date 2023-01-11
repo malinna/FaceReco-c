@@ -4,17 +4,17 @@
 [![license](https://img.shields.io/badge/license-BSD-green.svg)](LICENSE)
 ![platform](https://img.shields.io/badge/platform-windows_64--bit-blue.svg)
 
-FaceReco is a face recognition system, which can learn and recognize faces from a video. It is developed by [Marko Linna](http://www.ee.oulu.fi/~malinna/) at the [University of Oulu](http://www.oulu.fi/english/) in the [Research Work on Information Processing](https://weboodi.oulu.fi/oodi/opintjakstied.jsp?Kieli=6&OpinKohd=121722) course. The C++/Qt sources are available under the [BSD 3-Clause](LICENSE) license. This software was developed for research purposes and there is no other support available than this readme file.
+FaceReco is a face recognition system, which can learn and recognize faces from video. It is developed by Marko Linna at the [University of Oulu](https://www.oulu.fi/en) in the **Research Work on Information Processing** course. The C++/Qt sources are available under the [BSD 3-Clause](LICENSE) license. This software was developed for research purposes and there is no other support available than this readme file.
 
-[![ui](https://lh5.googleusercontent.com/F63f2nglHhQ6egtCBjuJcIABlxnb8BJXV1KV0F9Yr7P-KUCdmME0YxIWxUrDbSA6zRk=w2400)
-[![ui](https://drive.google.com/file/d/1ZRPVYnvVxLNhMwV7789HizUpmw13rxan/view?usp=share_link)
-[![ui](https://drive.google.com/file/d/1DxVa-qP6QmEvdOTGgpQqOeLvmlI81osq/view?usp=share_link)
+![ui](https://lh5.googleusercontent.com/F63f2nglHhQ6egtCBjuJcIABlxnb8BJXV1KV0F9Yr7P-KUCdmME0YxIWxUrDbSA6zRk=w2400)
+![ui](https://lh5.googleusercontent.com/IW2SgPxl4fYvP406K69bgMN0YOtB5cmo0R_IUZanFYIDi7hrJmH5DMkt2ADofZoJ1YQ=w2400)
+![ui](https://lh5.googleusercontent.com/f8LhcTYwez37hMPaomo7HjoWg6bwAh5suWJMC9ao4cgaOnxrvJg4oJ6JQBc-6UFpyu4=w2400)
 
 Check [this](https://www.youtube.com/watch?v=QxhqC-4yHiA) video to see how the system performs on the [Honda/UCSD video database](http://vision.ucsd.edu/~leekc/HondaUCSDVideoDatabase/HondaUCSD.html).
 
 FaceReco utilizes 3rd party software [Chehra](https://sites.google.com/site/chehrahome/) for facial landmark detection and tracking. Faces are represented using Local Binary Patterns ([LBP](http://www.scholarpedia.org/article/Local_Binary_Patterns)). For more detailed information about the system, read the following paper:
 
-* [Linna M](http://www.ee.oulu.fi/~malinna/), [Kannala J](https://users.aalto.fi/~kannalj1/) and [Rahtu E](http://www.ee.oulu.fi/~erahtu/). Online Face Recognition System Based on Local Binary Patterns and Facial Landmark Tracking. *Advanced Concepts for Intelligent Vision Systems (ACIVS 2015)*. [[PDF](http://www.ee.oulu.fi/~malinna/publications/linna2015online.pdf)]
+* Linna M, [Kannala J](https://users.aalto.fi/~kannalj1/) and [Rahtu E](https://esa.rahtu.fi/). Online Face Recognition System Based on Local Binary Patterns and Facial Landmark Tracking. *Advanced Concepts for Intelligent Vision Systems (ACIVS 2015)*. [[PDF](https://users.aalto.fi/~kannalj1/publications/acivs2015.pdf)]
 
 ---
 ## System requirements
