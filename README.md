@@ -6,9 +6,9 @@
 
 FaceReco is a face recognition system, which can learn and recognize faces from a video. It is developed by [Marko Linna](http://www.ee.oulu.fi/~malinna/) at the [University of Oulu](http://www.oulu.fi/english/) in the [Research Work on Information Processing](https://weboodi.oulu.fi/oodi/opintjakstied.jsp?Kieli=6&OpinKohd=121722) course. The C++/Qt sources are available under the [BSD 3-Clause](LICENSE) license. This software was developed for research purposes and there is no other support available than this readme file.
 
-[![ui](http://www.ee.oulu.fi/~malinna/images/facereco/ui_small.png)](http://www.ee.oulu.fi/~malinna/images/facereco/ui.png)
-[![ui](http://www.ee.oulu.fi/~malinna/images/facereco/capture_small.jpg)](http://www.ee.oulu.fi/~malinna/images/facereco/capture.jpg)
-[![ui](http://www.ee.oulu.fi/~malinna/images/facereco/track_small.jpg)](http://www.ee.oulu.fi/~malinna/images/facereco/track.jpg)
+[![ui](https://drive.google.com/file/d/1Jvagjakqq1UYnwZXAKx8EJL2cQ38AStw/view?usp=share_link)
+[![ui](https://drive.google.com/file/d/1ZRPVYnvVxLNhMwV7789HizUpmw13rxan/view?usp=share_link)
+[![ui](https://drive.google.com/file/d/1DxVa-qP6QmEvdOTGgpQqOeLvmlI81osq/view?usp=share_link)
 
 Check [this](https://www.youtube.com/watch?v=QxhqC-4yHiA) video to see how the system performs on the [Honda/UCSD video database](http://vision.ucsd.edu/~leekc/HondaUCSDVideoDatabase/HondaUCSD.html).
 
